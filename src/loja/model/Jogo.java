@@ -8,7 +8,6 @@ public class Jogo extends Produto {
         this.genero = genero;
     }
 
-    // Sobrecarga
     public Jogo(int id, String nome) {
         super(id, nome, 0.0);
         this.genero = "Indefinido";
