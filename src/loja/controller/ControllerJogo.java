@@ -11,11 +11,11 @@ public class ControllerJogo {
     private List<Jogo> carrinho = new ArrayList<>();
 
     public ControllerJogo() {
-        // Jogos pré-definidos
-        jogosDisponiveis.add(new Jogo(1, "FIFA 23", 199.90, "Esporte"));
+        jogosDisponiveis.add(new Jogo(1, "EA FC 25", 159.90, "Esporte"));
         jogosDisponiveis.add(new Jogo(2, "The Witcher 3", 99.90, "RPG"));
         jogosDisponiveis.add(new Jogo(3, "Minecraft", 79.90, "Aventura"));
-        jogosDisponiveis.add(new Jogo(4, "GTA V", 89.99, "Ação"));
+        jogosDisponiveis.add(new Jogo(4, "GTA V", 189.99, "Ação"));
+        jogosDisponiveis.add(new Jogo(5, "Red Dead Redemption", 199.99, "Ação"));
     }
 
     public void listarJogos() {
